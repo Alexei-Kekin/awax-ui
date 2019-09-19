@@ -5,6 +5,8 @@
 html,
 body {
   font-family: $font-family1;
+  color:$color-firm9;
+  font-size:$font-size8;
 }
 
 .button {
@@ -13,7 +15,7 @@ min-width: 194px;
   background-color: $color-firm3;
   color: $color-firm2;
   font-family: $font-family1;
-  font-size: $font-size10;
+  font-size: $font-size9;
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
@@ -73,9 +75,28 @@ min-width: 194px;
   border-bottom: 2px solid $color-firm4;
   background-color: transparent;
   font-family: $font-family1;
-  font-size: $font-size9;
+  font-size: $font-size8;
   padding: 5px 0;
   text-transform: uppercase;
   font-weight: 300;
   width: 100%;
+}
+
+h1 {
+  font-size: $font-size1;
+}
+h2 {
+  font-size:$font-size2;
+}
+h3 {
+  font-size:$font-size3;
+}
+h4 {
+  font-size:$font-size4;
+}
+h5 {
+  font-size:$font-size5;
+}
+h6 {
+  font-size:$font-size6;
 }
