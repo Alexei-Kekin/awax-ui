@@ -2,84 +2,13 @@
 @import "./variables";
 @import "./mixins";
 @import "./fonts.scss";
+@import "./components/index.scss";
+
 html,
 body {
   font-family: $font-family1;
   color:$color-firm9;
   font-size:$font-size8;
-}
-
-.button {
-min-width: 194px;
-  min-height: 45px;
-  background-color: $color-firm3;
-  color: $color-firm2;
-  font-family: $font-family1;
-  font-size: $font-size9;
-  font-weight: 700;
-  line-height: 1.5;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 20px;
-  outline: none;
-  cursor: pointer;
-  padding: 5px 20px;
-  transition: background-color $animation-time;
-  &:hover,
-  &:focus{
-    background-color: $color-firm7;
-  }
-  &:active {
-    background-color: rgba($color-firm7, 0.7);
-  }
-}
-
-.button--secondary {
-  background-color: $color-firm7;
-  &:hover,
-  &:focus{
-    background-color: $color-firm3;
-  }
-  &:active {
-    background-color: rgba($color-firm3, 0.7);
-  }
-}
-
-.text-field {
-  position: relative;
-
-  &:after {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    display: block;
-    height: 2px;
-    width: 100%;
-    background-color: $color-firm3;
-    transform: scaleX(0);
-    transition: transform $animation-time;
-  }
-
-  &:hover,
-  &:focus { // TODO: Should be checked and fixed
-    &:after {
-      transform: scaleX(1);
-    }
-  }
-}
-
-.text-field__input,
-.text-field__textarea {
-  display: block;
-  border: none;
-  border-bottom: 2px solid $color-firm4;
-  background-color: transparent;
-  font-family: $font-family1;
-  font-size: $font-size8;
-  padding: 5px 0;
-  text-transform: uppercase;
-  font-weight: 300;
-  width: 100%;
 }
 
 h1 {
