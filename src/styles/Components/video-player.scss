@@ -1,0 +1,41 @@
+@import "../variables";
+
+.video-player {
+  position: relative;
+  width: 100%;
+}
+
+.video-player__video {
+  display: block;
+  width: 100%;
+}
+
+.video-player__play-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba($color-firm1, 0.7);
+  text-transform: uppercase;
+  font-family: $font-size3;
+  color:$color-firm2;
+  font-weight: 400;
+  cursor: pointer;
+  &:hover,
+  &:focus{
+    opacity: 0.7;
+  }
+  &:active {
+    transition: opacity $animation-time;
+  }
+
+}
+.video-player__i-play {
+  max-width: 90px;
+  margin: 15px;
+}
