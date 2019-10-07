@@ -44,7 +44,6 @@ p{
 .subtitle {
   font-size: $font-size7;
   text-transform: uppercase;
-  color: $color-firm4;
 }
 
 .app__section {
@@ -61,6 +60,10 @@ p{
   color: $color-firm2;
 }
 
+.app__section--price{
+  background: $color-firm11;
+}
+
 .app__section-title{
   text-align: center;
 }
@@ -68,4 +71,5 @@ p{
 .app__section-subtitle {
   text-align: center;
   margin-top: 8px;
+  color: $color-firm4;
 }
