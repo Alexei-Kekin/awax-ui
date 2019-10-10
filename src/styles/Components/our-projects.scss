@@ -24,8 +24,6 @@ $item-margin:15px;
   flex-direction: column;
   align-items: center;
   flex-basis: 255px;
-
-  //flex-basis: calc(100% / #{$items-per-row} - #{$item-margin} *2);
   margin: $item-margin;
 }
 
