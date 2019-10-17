@@ -1,21 +1,22 @@
 @import "../variables";
 
+
 .button {
   display: block;
-  min-width: 194px;
-  min-height: 45px;
-  background-color: $color-firm3;
-  color: $color-firm2;
-  font-family: $font-family1;
-  font-size: $font-size9;
-  font-weight: 700;
-  line-height: 1.5;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 20px;
   outline: none;
   cursor: pointer;
+  font-weight: 700;
+  min-width: 194px;
+  min-height: 45px;
+  font-family: $font-family1;
+  line-height: 1.5;
+  border-radius: 20px;
   padding: 5px 38px;
+  border: none;
+  text-transform: uppercase;
+  font-size: $font-size9;
+  background-color: $color-firm3;
+  color: $color-firm2;
   transition: background-color $animation-time;
   &:hover,
   &:focus{
@@ -26,13 +27,37 @@
   }
 }
 
+.button--primary {
+  background-color: $color-firm5;
+}
+
 .button--secondary {
   background-color: $color-firm7;
+}
+
+.button--secondary,
+.button--primary{
   &:hover,
   &:focus{
-    background-color: $color-firm3;
-  }
+  background-color: $color-firm3;
+}
   &:active {
     background-color: rgba($color-firm3, 0.7);
   }
+}
+
+.button--fab {
+  width: 33px;
+  height: 33px;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.button__fab-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
