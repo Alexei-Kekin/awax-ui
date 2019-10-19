@@ -48,6 +48,14 @@ body {
   background: $color-firm11;
 }
 
+.app__section--tell-about-us {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background-color: $color-firm15;
+  border-bottom:  1px solid $color-firm10;
+  border-top:  1px solid $color-firm10;
+}
+
 .app__section-title{
   text-align: center;
 }
