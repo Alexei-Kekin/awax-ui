@@ -1,0 +1,47 @@
+@import "../variables";
+$item-margin: 15px;
+$social-item-margin: 3px;
+
+.our-team {
+  text-align: center;
+}
+.our-team__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px -$item-margin -#{$item-margin} -#{$item-margin};
+}
+
+.our-team__item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 350px;
+  align-items: center;
+  padding: 48px 20px 43px;
+  margin: $item-margin;
+  background-color: $color-firm2;
+}
+
+.our-team__avatar {
+  flex-basis: 185px;
+}
+
+.our-team__name {
+  margin-top: 38px;
+  font-weight: 600;
+}
+
+.our-team__position {
+  margin-top: 4px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.our-team__socials {
+  display: flex;
+  margin: 35px -#{$social-item-margin} 0;
+}
+
+.our-team__socials-item {
+  margin: 0 $social-item-margin;
+}
