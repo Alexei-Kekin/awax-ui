@@ -2,6 +2,7 @@
 @import "./variables";
 @import "./mixins";
 @import "./fonts.scss";
+@import "./typography.scss";
 @import "./components/index.scss";
 
 html,
@@ -10,42 +11,6 @@ body {
   color:$color-firm9;
   font-size:$font-size8;
   background-color: $color-firm21;
-}
-
-h1 {
-  font-size: $font-size1;
-}
-h2 {
-  font-size:$font-size2;
-  font-weight: 700;
-}
-h3 {
-  font-size:$font-size3;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-h4 {
-  font-size:$font-size4;
-}
-h5 {
-  font-size:$font-size5;
-}
-h6 {
-  font-size:$font-size6;
-  text-transform: uppercase;
-  line-height: 1.33;
-  font-weight: 600;
-
-}
-
-p{
-  line-height: 1.79;
-}
-
-.subtitle {
-  font-size: $font-size7;
-  text-transform: uppercase;
-
 }
 
 .app__section {
@@ -73,6 +38,12 @@ p{
   padding-bottom: 48px;
 }
 
+.app__section--our-team{
+  background: url("../assets/i/s/our-team-bg.jpg") no-repeat 50%/ cover;
+  .app__section-title{
+    color: $color-firm2;
+  }
+}
 .app__section--price{
   background: $color-firm11;
 }
