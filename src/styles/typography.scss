@@ -17,6 +17,7 @@ h4 {
 }
 h5 {
   font-size:$font-size5;
+  font-weight: 700;
   text-transform: uppercase;
 }
 h6 {
@@ -24,11 +25,16 @@ h6 {
   text-transform: uppercase;
   line-height: 1.33;
   font-weight: 600;
-
 }
 
 p{
   line-height: 1.79;
+  font-weight: 300;
+}
+
+ul,
+ol{
+  font-weight: 300;
 }
 
 .subtitle {

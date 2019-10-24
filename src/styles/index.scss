@@ -5,6 +5,8 @@
 @import "./typography.scss";
 @import "./components/index.scss";
 
+$section-content-max-width: 1132px;
+
 html,
 body {
   font-family: $font-family1;
@@ -18,7 +20,7 @@ body {
 }
 
 .app__section-content{
-  max-width: 1132px;
+  max-width: $section-content-max-width;
   margin: 0 auto;
 }
 
